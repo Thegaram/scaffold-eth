@@ -22,7 +22,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = "localhost";
+const defaultNetwork = "scrollPrealpha";
 
 function mnemonic() {
   try {
@@ -252,6 +252,11 @@ module.exports = {
       accounts: {
         mnemonic: mnemonic(),
       },
+    },
+    scrollPrealpha: {
+      url: "https://prealpha.scroll.io/l2",
+      chainId: 534354,
+      accounts: [], // private keys
     },
   },
   solidity: {

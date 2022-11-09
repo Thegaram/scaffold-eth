@@ -1,3 +1,13 @@
+# Scroll @ ETH Vietnam
+
+Configure your private key in `packages/hardhat/hardhat.config.js` (under `scrollPrealpha`), then run the following commands:
+
+```
+$ yarn install
+$ HARDHAT_NETWORK=scrollPrealpha yarn deploy
+$ yarn start
+```
+
 # 🏗 Scaffold-ETH
 
 > everything you need to build on Ethereum! 🚀

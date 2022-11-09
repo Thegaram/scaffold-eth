@@ -212,6 +212,13 @@ export const NETWORKS = {
     blockExplorer: "https://moonbeam-explorer.netlify.app/",
     rpcUrl: "http://127.0.0.1:9933",
   },
+  scrollPrealpha: {
+    name: "scrollPrealpha",
+    color: "#DEC9AA",
+    chainId: 534354,
+    blockExplorer: "https://l2scan.scroll.io",
+    rpcUrl: "https://prealpha.scroll.io/l2",
+  },
 };
 
 export const NETWORK = chainId => {
